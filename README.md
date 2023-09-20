@@ -1,17 +1,17 @@
 # :rocket:小火箭配置文件及模块    
 ### 🔔[个人网站](https://yfamily.vercel.app)支持搜索功能
-  
+
 
 <details>
    <summary>:key:模块及说明</summary>    
-   
+
 * #### :bell::bell::bell:小火箭模块建议搭配[基础配置文件](https://yfamily.vercel.app/config/shadowrocket_basic.conf)使用，避免冗余  
 * #### ！！！若某个模块时而生效时而失效，请检查其他模块的主机名前是否添加了%APPEND%，没有添加会导致导致其他模块失效。本仓库模块均添加了%APPEND%
 * #### [模块直装地址](https://yfamily.vercel.app/shadowrocket.html)
 
 
 
-  
+
 |:octocat:模块|:link:链接|:pushpin:说明|
 |--|--|--|
 |:white_check_mark:4in1|[:link:链接地址](https://yfamily.vercel.app/module/4in1.module)|模块合集
@@ -293,6 +293,9 @@
 |:white_check_mark:配音|[:link:链接地址](https://yfamily.vercel.app/module/peiyin.module)|配音app
 |:white_check_mark:AdGuard|[:link:链接地址](https://yfamily.vercel.app/module/adguard.module)|去广告app
 |:white_check_mark:阿里云盘签到|[:link:链接地址](https://yfamily.vercel.app/module/aliyun.module)|阿里云盘签到
+|:white_check_mark:百度地图净化|[:link:链接地址](https://raw.githubusercontent.com/LoveHikari/shadowrocket-rules/main/modules/baidumapad.module)|百度地图净化
+|:white_check_mark:Pixiv 去广告|[:link:链接地址](https://raw.githubusercontent.com/LoveHikari/shadowrocket-rules/main/modules/pixivad.module)|去除应用最下方广告
+|:white_check_mark:随手记净化+VIP|[:link:链接地址](https://raw.githubusercontent.com/LoveHikari/shadowrocket-rules/main/modules/suishoujiad.module)|随手记去广告
 
 
 
@@ -416,7 +419,7 @@
 
 <details>
   <summary>:key:Substore脚本</summary>  
-  
+
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/qwerzl/rename.js/main/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改自己的机场名）
@@ -428,7 +431,7 @@
 
 <details>
   <summary>:key:永久签名工具及IPA</summary>  
-  
+
 |:octocat:签名工具|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:TrollStore 永久签名|[:link:教程](https://github.com/deezertidal/shadowrocket-rules/blob/main/TrollStore.MD)|支持iOS14.0-15.4.1
