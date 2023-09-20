@@ -1,27 +1,27 @@
-#!name=ËæÊÖ¼Ç¾»»¯+VIP[Ä«Óã°æ]
-#!desc=ËæÊÖ¼ÇÈ¥¹ã¸æ
+#!name=éšæ‰‹è®°å‡€åŒ–+VIP[å¢¨é±¼ç‰ˆ]
+#!desc=éšæ‰‹è®°å»å¹¿å‘Š
 
 [URL Rewrite]
-# ¡« ËæÊÖ¼Ç_¿ªÆÁ¹ã¸æ
+# ï½ éšæ‰‹è®°_å¼€å±å¹¿å‘Š
 https://tg.feidee.com/online_ad/api/search.do - reject
-# ¡« ËæÊÖ¼Ç_¹ã¸æÍÆËÍ
+# ï½ éšæ‰‹è®°_å¹¿å‘Šæ¨é€
 https://tg.feidee.com/vis-ad-engine-ws/api/show - reject
-# ¡« ËæÊÖ¼Ç_ÉçÇø
+# ï½ éšæ‰‹è®°_ç¤¾åŒº
 https://api.feidee.net/v1/configs/client/configs - reject-200
-# ¡« ËæÊÖ¼Ç_Ê×Ò³ÍÆ¼ö
+# ï½ éšæ‰‹è®°_é¦–é¡µæ¨è
 https://yunmk.feidee.net/cab-market-ws/market/v2/contents - reject-dict
-# ¡« ËæÊÖ¼Ç_ÉçÇøÍÆ¹ã
+# ï½ éšæ‰‹è®°_ç¤¾åŒºæ¨å¹¿
 https://community.feidee.com/api/v1/home/top - reject-200
-# ¡« ËæÊÖ¼Ç_ÕË±¾ÖĞ¼äÍÆ¹ã
+# ï½ éšæ‰‹è®°_è´¦æœ¬ä¸­é—´æ¨å¹¿
 https://yun.feidee.net/cab-query-ws/v1/comet/vtable/score-card - reject-dict
-# ¡« ËæÊÖ¼Ç_ÍÆ¹ãTips
+# ï½ éšæ‰‹è®°_æ¨å¹¿Tips
 https://moneymarket.ssjlicai.com/finance-common-operation-ws/api/actShelve/v1/actShelveShowTipInfo - reject
-# ¡« ËæÊÖ¼Ç_ÕË±¾¶¥²¿ÍÆ¹ã
+# ï½ éšæ‰‹è®°_è´¦æœ¬é¡¶éƒ¨æ¨å¹¿
 https://yun.feidee.net/cab-draw-activity-ws/terminal/v1/draw-record/user-draw-result - reject-dict
 
 [Script]
-ËæÊÖ¼Ç_»áÔ±ĞÅÏ¢=type=http-response,pattern=https://userapi.feidee.net/v1/profile/basic_info,requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js
-ËæÊÖ¼Ç_×´Ì¬ĞÅÏ¢=type=http-response,pattern=https://yun.feidee.net/cab-vip-ws/terminal/v1/vip-users/show-info,requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js
+éšæ‰‹è®°_ä¼šå‘˜ä¿¡æ¯=type=http-response,pattern=https://userapi.feidee.net/v1/profile/basic_info,requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js
+éšæ‰‹è®°_çŠ¶æ€ä¿¡æ¯=type=http-response,pattern=https://yun.feidee.net/cab-vip-ws/terminal/v1/vip-users/show-info,requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js
 
 [MITM]
 hostname = %APPEND% *.feidee.*, *.ssjlicai.*
