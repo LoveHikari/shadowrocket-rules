@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,amazon.com.mx
   - DOMAIN-SUFFIX,amazon.com.tr
   - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazon.dev
   - DOMAIN-SUFFIX,amazon.es
   - DOMAIN-SUFFIX,amazon.fr
   - DOMAIN-SUFFIX,amazon.in
@@ -86,6 +87,8 @@ payload:
   - DOMAIN-SUFFIX,amazonsdi.com
   - DOMAIN-SUFFIX,amazonses.com
   - DOMAIN-SUFFIX,amazonstudiosguilds.com
+  - DOMAIN-SUFFIX,amazontools.com
+  - DOMAIN-SUFFIX,amazontours.com
   - DOMAIN-SUFFIX,amazontrust.com
   - DOMAIN-SUFFIX,amazonuniversity.jobs
   - DOMAIN-SUFFIX,amazonvideo.cc
@@ -135,6 +138,7 @@ payload:
   - DOMAIN-SUFFIX,cloudfront-cn.net
   - DOMAIN-SUFFIX,cloudfront-test.cn
   - DOMAIN-SUFFIX,cloudfront.cn
+  - DOMAIN-SUFFIX,cloudfront.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,containersonaws.com
   - DOMAIN-SUFFIX,createspace.com
