@@ -1,9 +1,9 @@
-#!name=极简汇率
-#!desc=解锁钻石会员权限
+#!name=鏋佺畝姹囩巼
+#!desc=瑙ｉ攣閽荤煶浼氬憳鏉冮檺
 #!homepage=https://yfamily.ml
 #!author=ddgksf2013
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/b612.png
 [Script]
-极简汇率=type=http-response,pattern=^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip,requires-body=1,script-path=https://github.com/ddgksf2013/MoYu/raw/master/JiJianHuiLvProCrack.js
+鏋佺畝姹囩巼=type=http-response,pattern=^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip,requires-body=1,script-path=https://github.com/ddgksf2013/MoYu/raw/master/JiJianHuiLvProCrack.js
 [MITM]
 hostname = %APPEND% explorer.tratao.com
