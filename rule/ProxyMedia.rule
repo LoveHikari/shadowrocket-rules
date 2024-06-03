@@ -105,7 +105,6 @@ payload:
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbonow.com
-  - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN-KEYWORD,hbogoasia
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
@@ -241,8 +240,10 @@ payload:
   - DOMAIN-SUFFIX,olevod.tv
   - DOMAIN-SUFFIX,olevodtv.com
   - DOMAIN-KEYWORD,openai
+  - DOMAIN,gemini.google.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,featuregates.org

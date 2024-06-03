@@ -1,8 +1,9 @@
 payload:
-  - DOMAIN-SUFFIX,citic
   - DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,ms
   - DOMAIN-SUFFIX,alibaba
+  - DOMAIN-SUFFIX,citic
+  - DOMAIN-SUFFIX,icbc
   - DOMAIN-SUFFIX,sohu
   - DOMAIN-SUFFIX,tmall
   - DOMAIN-SUFFIX,unicom
@@ -38,17 +39,16 @@ payload:
   - DOMAIN-SUFFIX,xn--vuq861b
   - DOMAIN-SUFFIX,xn--xhq521b
   - DOMAIN-SUFFIX,xn--zfr164b
-  - DOMAIN-SUFFIX,icbc
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
   - DOMAIN-KEYWORD,alipay
   - DOMAIN-KEYWORD,aliyun
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,taobao
   - DOMAIN-KEYWORD,bilibili
   - DOMAIN-KEYWORD,qiyi
   - DOMAIN-KEYWORD,hnagroup
+  - DOMAIN-KEYWORD,stripe
   - DOMAIN-KEYWORD,weibo

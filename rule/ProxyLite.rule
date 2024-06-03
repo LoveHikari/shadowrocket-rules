@@ -9,6 +9,7 @@ payload:
   - DOMAIN,az668014.vo.msecnd.net
   - DOMAIN,beta.music.apple.com
   - DOMAIN,books.apple.com
+  - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,clubhouse.pubnubapi.com
   - DOMAIN,disk.yandex.com
@@ -20,7 +21,6 @@ payload:
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,search.yahoo.co.jp
   - DOMAIN,tv.apple.com
-  - DOMAIN,voice.telephony.goog
   - DOMAIN,wego.here.com
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,4everproxy.com
@@ -52,17 +52,16 @@ payload:
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,anaconda.com
   - DOMAIN-SUFFIX,anchor.fm
   - DOMAIN-SUFFIX,ancsconf.org
   - DOMAIN-SUFFIX,android-x86.org
   - DOMAIN-SUFFIX,angularjs.org
   - DOMAIN-SUFFIX,anthonycalzadilla.com
-  - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,aolcdn.com
   - DOMAIN-SUFFIX,apache.org
+  - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.mixpanel.com
   - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,apk-dl.com
@@ -123,7 +122,6 @@ payload:
   - DOMAIN-SUFFIX,blogcdn.com
   - DOMAIN-SUFFIX,bloglovin.com
   - DOMAIN-SUFFIX,blogsmithmedia.com
-  - DOMAIN-SUFFIX,bloomberg.cn
   - DOMAIN-SUFFIX,bloomberg.com
   - DOMAIN-SUFFIX,bloomberg.de
   - DOMAIN-SUFFIX,bloombergview.com
@@ -148,14 +146,11 @@ payload:
   - DOMAIN-SUFFIX,cdnst.net
   - DOMAIN-SUFFIX,celestrak.com
   - DOMAIN-SUFFIX,census.gov
-  - DOMAIN-SUFFIX,chalungu.cn
   - DOMAIN-SUFFIX,change.org
-  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chaturbate.com
   - DOMAIN-SUFFIX,chinadigitaltimes.net
   - DOMAIN-SUFFIX,chinatimes.com
   - DOMAIN-SUFFIX,cl.ly
-  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,clien.net
   - DOMAIN-SUFFIX,cloud.cupronickel.goog
   - DOMAIN-SUFFIX,cloudcone.com
@@ -255,6 +250,7 @@ payload:
   - DOMAIN-SUFFIX,feedly.com
   - DOMAIN-SUFFIX,feedsportal.com
   - DOMAIN-SUFFIX,fiftythree.com
+  - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,flexibits.com
   - DOMAIN-SUFFIX,flickr.com
   - DOMAIN-SUFFIX,flipboard.com
@@ -443,6 +439,7 @@ payload:
   - DOMAIN-SUFFIX,newsweek.com
   - DOMAIN-SUFFIX,newyorker.com
   - DOMAIN-SUFFIX,newyorktimes.com
+  - DOMAIN-SUFFIX,nextmedia.com
   - DOMAIN-SUFFIX,nhncorp.jp
   - DOMAIN-SUFFIX,nianticlabs.com
   - DOMAIN-SUFFIX,nicovideo.jp
@@ -507,6 +504,9 @@ payload:
   - DOMAIN-SUFFIX,playartifact.com
   - DOMAIN-SUFFIX,player.fm
   - DOMAIN-SUFFIX,playpcesor.com
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,podbean.com
   - DOMAIN-SUFFIX,pokemon.com
   - DOMAIN-SUFFIX,poloniex.com
@@ -788,7 +788,6 @@ payload:
   - DOMAIN-SUFFIX,wenxuecity.com
   - DOMAIN-SUFFIX,westca.com
   - DOMAIN-SUFFIX,westpoint.edu
-  - DOMAIN-SUFFIX,wheel-size.cn
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,wikibooks.org
   - DOMAIN-SUFFIX,wikidata.org
