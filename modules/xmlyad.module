@@ -20,8 +20,11 @@
 ^https?://ad\.ximalaya\.com - reject
 ^https?://.+audid-api\.taobao.com - reject
 ^https?://passport\.ximalaya\.com\/user-http-app\/v1\/token\/refresh - reject
-^https?://adse\.ximalaya\.com/incentive/ting/durationConfig - reject-dict
-^https?://mobile\.ximalaya\.com/mobile-playpage/view/ - reject-dict
+
+[Map Local]
+^https?://adse\.ximalaya\.com/incentive/ting/durationConfig data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+^https?://mobile\.ximalaya\.com/mobile-playpage/view/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
 # > 喜马拉雅,会员.大师课,儿童+音效&音质,去广告,界面优化+++
